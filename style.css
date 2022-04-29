@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -216,7 +216,7 @@ header {
 
     .nav-link-light {
         color: #000;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         font-weight: 600;
         line-height: 4rem;
     }
@@ -230,7 +230,7 @@ header {
     }
 
     .nav-item {
-        margin: 0rem 2rem;
+        margin: 1.8rem 2rem;
         text-decoration: none;
         list-style-type: none;
     }
@@ -346,10 +346,15 @@ margin-bottom: 4rem;
     font-weight: normal;
     font-family: var(--roboto);
     background-image: linear-gradient(90deg,  #ff8703, #ff324e);
-    padding: 1.5rem 4rem;
+    padding: 2% 6%;
+    box-shadow: 0px 1px 3px grey;
     border: none;
     color: #fff;
+    
 }
+ button:hover{
+    box-shadow: 0px 1px 7px 1px grey;
+ }
 .right_img img{
     width: 95% !important;
 }
@@ -398,7 +403,8 @@ div#rightDiv {order: 1;}
     font-weight: normal;
     font-family: var(--roboto);
     background-color: #fff;
-    padding: 1.5rem 4rem;
+    padding: 2% 6%;
+    box-shadow: 0px 1px 3px grey;
     border: none;
 }
 .home_section5{
@@ -607,6 +613,10 @@ footer p{
     .color_box h3{
         font-size: 2.2rem;
     }
+    .left_content h3{
+        font-size: 2.2rem !important;
+        line-height: 110%;
+    }
     .two_cols {
         display: flex;
         flex-direction: column;
@@ -645,6 +655,13 @@ footer p{
     }
 }
 @media screen and (max-device-width: 767px){
+    .home_section3, .home_section7{
+        padding: 0 !important;
+    }
+    .home_section6{
+        padding: 0rem 3rem !important;
+    }
+     
     .color_box{
         margin-bottom: 1.5rem !important;
         height: 34vh;
@@ -656,9 +673,6 @@ footer p{
          font-size: 2.2rem;
 
      }
-    .home_section3 .left_content h3 {
-        font-size: 2.2rem;
-    }
      .home_section4{
          padding: 4rem 0rem;
      }
@@ -673,6 +687,28 @@ footer p{
          padding: 15rem 3rem 3rem 3rem;
          height: 300px;
      }
+     .left_content button, .pink_bg button {
+        padding: 2% 6% !important;
+        font-size: 1.8rem !important;
+    }
+    .yellow_bg h3 {
+        font-size: 2.2rem !important;
+    }
+    .contact_details h2 {
+        font-size: 2.2rem;
+    }
+    .contact_details p, .contact_details h3 {
+        font-size: 1.6rem;
+    }
+    .contact_details h3 img{
+        width: 10%;
+    }
+    .socialmedia_icon .icon {
+        width: 40px;
+    }
+    .socialmedia_icon .icon img{
+        width: 30px;
+    }
 }
 @media screen and (max-device-width: 574px){
     .pink_bg{
